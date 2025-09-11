@@ -3,7 +3,7 @@ let tusamigos=[];
 
 function agregarAmigo(){
     dato=document.getElementById("amigo");
-    tusamigos.push('dato');
+    tusamigos.push(dato);
     console.log(tusamigos);
     
 }
