@@ -2,8 +2,8 @@
 let tusamigos=[];
 
 function agregarAmigo(){
-    dato=document.getElementById(amigo);
+    dato=document.getElementById("amigo").value;
     tusamigos.push(dato);
     console.log(tusamigos);
-    
+    document.querySelector
 }
