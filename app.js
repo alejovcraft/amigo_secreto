@@ -2,7 +2,7 @@
 let tusamigos=[];
 
 function agregarAmigo(){
-    dato=document.getElementById("amigo");
+    dato=document.getElementById(amigo);
     tusamigos.push(dato);
     console.log(tusamigos);
     
