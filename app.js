@@ -31,4 +31,15 @@ listaamigos.innerHTML="Tu listado de amigos:";
     contador++;
     }
 }
+function sortearAmigo(){
+    if(tusamigos==""){
+        alert("debes ingresar minimo un amigo");
+    }
+    else{
+        let indice = Math.floor(Math.random() * tusamigos.length);
+        let ganador = tusamigos[indice];
 
+         let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `<li>Tu amigo secreto es: <strong>${ganador}</strong></li>`;
+    }
+}
